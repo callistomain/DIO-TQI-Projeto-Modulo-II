@@ -48,23 +48,23 @@
     transform: rotate(0);
 }
 
-#toogle {
+#toggle {
     display: none;
 }
 
-#toogle:checked + .checkbox .trace:nth-child(1) {
+#toggle:checked + .checkbox .trace:nth-child(1) {
     transform: rotate(45deg);
     top: 47px;
 }
 
-#toogle:checked + .checkbox .trace:nth-child(2) {
+#toggle:checked + .checkbox .trace:nth-child(2) {
     transform: translateX(-100px);
     width: 10px;
     opacity: 0;
     visibility: hidden;
 }
 
-#toogle:checked + .checkbox .trace:nth-child(3) {
+#toggle:checked + .checkbox .trace:nth-child(3) {
     transform: rotate(-45deg);
     top: 47px;
 }
